@@ -1,18 +1,16 @@
-import React, { useState } from 'react'
-import Header from './Header'
+import React from 'react'
+import Calc from './Calc'
 
 function App() {
-  const[i,Seti]=useState(0);
+  
+
   return (
     <>
-<Header/>
-<h1>vite+react</h1>
-<h2>count is:{i}</h2>
-<button onClick={()=>{
-  Seti(i+1)
-}}>click me</button>
-
+   <center><h1>welcome to our page </h1></center> 
+   <h2>your calculation is:</h2>
+   <h1><Calc></Calc></h1>
     </>
+   
 
   )
 }
