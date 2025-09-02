@@ -1,0 +1,11 @@
+.head{
+    display:flex;
+    flex-direction:row;
+}
+.image{
+    height:500px;
+    width:200px;
+}
+.pa{
+    color:blue;
+}

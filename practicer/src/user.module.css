@@ -1,0 +1,24 @@
+.head{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+
+}
+.ima{
+    height:200px;
+    width:250px;
+
+}
+.md{
+    height:350px;
+    width:300px;
+    box-shadow:2px 2px 2px 2px greenyellow;
+}
+.h{
+    color:aqua;
+    text-align: center;
+}
+.h2{
+    color:red;
+    text-align: center;
+}
